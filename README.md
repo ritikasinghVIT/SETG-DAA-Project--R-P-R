@@ -57,3 +57,15 @@ SETG/
 * Develop greedy coloring algorithm
 * Test with sample datasets
 
+### Day 2 – Conflict Graph Construction
+- Implemented conflict graph using adjacency list
+- Converted student-course mapping into graph representation
+- Created edges between courses sharing common students
+- Tested graph with sample dataset
+
+### Day 3 – Greedy Graph Coloring
+- Implemented greedy coloring algorithm
+- Assigned minimum available slot to each course
+- Tested on sample dataset
+- Observed fast execution but not always optimal
+
