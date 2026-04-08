@@ -69,3 +69,8 @@ SETG/
 - Tested on sample dataset
 - Observed fast execution but not always optimal
 
+### Day 4 – Backtracking Graph Coloring
+- Implemented backtracking algorithm for exact graph coloring
+- Explored all possible color assignments
+- Ensured minimum number of slots (optimal solution)
+- Observed high execution time for larger graphs
