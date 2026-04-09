@@ -5,8 +5,8 @@
 
 The Smart Exam Timetable Generator (SETG) models exam scheduling as a graph coloring problem.
 
-* Courses are represented as nodes
-* Conflicts (common students) are represented as edges
+* Courses are taken as nodes
+* Conflicts (common students) are taken as edges
 * Time slots are represented as colors
 
 The goal is to generate a conflict-free timetable while minimizing the number of time slots.
@@ -59,7 +59,7 @@ SETG/
 
 ### Day 2 – Conflict Graph Construction
 - Implemented conflict graph using adjacency list
-- Converted student-course mapping into graph representation
+- Converted student-course mapping into graph
 - Created edges between courses sharing common students
 - Tested graph with sample dataset
 
