@@ -74,3 +74,9 @@ SETG/
 - Explored all possible color assignments
 - Ensured minimum number of slots (optimal solution)
 - Observed high execution time for larger graphs
+
+### Day 5 – DSATUR Graph Coloring
+- Implemented DSATUR heuristic algorithm
+- Selected nodes based on saturation degree
+- Found better coloring than greedy
+- Faster than backtracking for larger graphs
