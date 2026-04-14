@@ -80,3 +80,15 @@ SETG/
 - Selected nodes based on saturation degree
 - Found better coloring than greedy
 - Faster than backtracking for larger graphs
+
+### Day 6 – Algorithm Comparison
+- Implemented comparison of Greedy, Backtracking, and DSATUR algorithms
+- Measured number of slots and execution time for each
+- Tested on multiple input graphs (manual and synthetic)
+- Observed that all algorithms produced the same result for certain datasets
+
+### Observations
+- Greedy algorithm is fast but depends on node ordering
+- Backtracking guarantees optimal solution but is computationally expensive
+- DSATUR provides a balance between efficiency and optimality
+- For simpler graphs, all algorithms may produce the same number of slots
