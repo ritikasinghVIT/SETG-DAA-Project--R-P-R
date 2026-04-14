@@ -1,4 +1,4 @@
-from graph import build_conflict_graph
+from src.graph import build_conflict_graph
 
 def is_safe(node, graph, color, assignment):
     for neighbor in graph[node]:
@@ -38,13 +38,13 @@ def solve_graph_coloring(graph):
 
 # Test
 if __name__ == "__main__":
-    enrollments={
-        "S1": ["C1", "C2"],
-        "S2": ["C1", "C3"],
-        "S3": ["C2", "C3"],
-        "S4": ["C2", "C4"]
+    enrollments = {
+    "S1": ["C1", "C2"],
+    "S2": ["C2", "C3"],
+    "S3": ["C3", "C4"],
+    "S4": ["C4", "C1"],
+    "S5": ["C1", "C3"]
     }
-
     graph = build_conflict_graph(enrollments)
     result = solve_graph_coloring(graph)
 
