@@ -91,4 +91,4 @@ SETG/
 - Greedy algorithm is fast but depends on node ordering
 - Backtracking guarantees optimal solution but is computationally expensive
 - DSATUR provides a balance between efficiency and optimality
-- For simpler graphs, all algorithms may produce the same number of slots
+- For simpler graphs, all algorithms produce the same number of slots
